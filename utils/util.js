@@ -18,6 +18,21 @@ function formatNumber(n) {
   return n[1] ? n : '0' + n
 }
 
+// 获取字符串实际长度
+function getStringLength(str) {
+  ///<summary>获得字符串实际长度，中文2，英文1</summary>
+  ///<param name="str">要获得长度的字符串</param>
+  var realLength = 0, len = str.length, charCode = -1;
+  for (var i = 0; i < len; i++) {
+    charCode = str.charCodeAt(i);
+    if (charCode >= 0 && charCode <= 128)
+      realLength += 1;
+    else
+      realLength += 2;
+  }
+  return realLength;
+}
+
 /**
  * 封封微信的的request
  */
@@ -160,6 +175,7 @@ module.exports = {
   checkSession,
   login,
   getUserInfo,
+  getStringLength,
 }
 
 
