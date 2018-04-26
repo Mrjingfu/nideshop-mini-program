@@ -14,12 +14,12 @@
         <text class="txt">我的订单</text>
       </navigator>
     </view>
-    <view class="item">
+    <!-- <view class="item">
       <navigator url="/pages/ucenter/coupon/coupon" class="a">
         <text class="icon coupon"></text>
         <text class="txt">优惠券</text>
       </navigator>
-    </view>
+    </view> -->
     <!-- <view class="item no-border">
       <navigator url="url" class="a">
         <text class="icon gift"></text>
