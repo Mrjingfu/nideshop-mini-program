@@ -8,7 +8,7 @@
 
 **注意：当前版本功能还未完善，请勿商用。**
 
-本项目需要配合NideShop商城服务端使用，GitHub: [https://github.com/tumobi/nideshop](https://github.com/tumobi/nideshop)
+本项目需要配合NideShop商城服务端使用，GitHub: [https://github.com/Mrjingfu/nideshop](https://github.com/Mrjingfu/nideshop)
 
 ### 项目截图
 
@@ -84,9 +84,9 @@
 ```
 
 ### 服务端api
-项目地址：https://github.com/tumobi/nideshop
+项目地址：https://github.com/Mrjingfu/nideshop
 
-### 最后
+### 最后,本程序在nideshop基础上完善的,原作者tumobi
 + 喜欢别忘了 Star
-+ 微信号 tumobi
-+ 交流 QQ 群：497145766
++ 微信号 handgame51
++ 交流 QQ 群：418177552
